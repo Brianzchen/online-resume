@@ -9,21 +9,21 @@ var bio = {
     location: "Auckland, New Zealand"
   },
   welcomeMessage: "Welcome to my online resume",
-  skills: {"html" },
+  skills: "html",
   biopicL: "images/fry.jpg"
-}
+};
 
 var education = {
   schools: [
     {
-      name: "University of Auckland"
+      name: "University of Auckland",
       location: "Auckland, New Zealand",
       degree: "Bachelor of Science",
-      majors: {"Compsci", "Statistics"},
+      majors: "Compsci",
       dates: 2015,
       url: "www.auckland.ac.nz"
     }
-  ]
+  ],
   onlineCourses: [
     {
       title: "Front-end Web Developer Nanodegree",
@@ -32,7 +32,7 @@ var education = {
       url: "www.udacity.com"
     }
   ]
-}
+};
 
 var work = {
   jobs: [
@@ -51,7 +51,7 @@ var work = {
       description: "Manager of company accounts and daily activities. Took initiative to modernize company through moving company files to a cloud based system and modularized the daily activities of the director"
     }
   ]
-}
+};
 
 var projects = {
   projects: [
@@ -59,7 +59,7 @@ var projects = {
       title: "Classic Arcade Clone",
       dates: "June 2015 - Present",
       description: "I made a game, will say more later",
-      images: {"images/197x148.gif"}
+      images: "images/197x148.gif"
     }
   ]
-}
+};
