@@ -6,7 +6,7 @@ var bio = {
     "email": "bchen.chen93@gmail.com",
     "github": "https://github.com/Brianzchen/",
     "twitter": "@brianzchen",
-    "location": "Auckland, New Zealand"
+    "location": "Bucklands Beach, Auckland, New Zealand"
   },
   "welcomeMessage": "Welcome to my online resume",
   "skills": [
@@ -58,7 +58,7 @@ var work = {
     {
       "employer": "Fortune Enterprises Ltd",
       "title": "Account Manager",
-      "location": "Auckland, New Zealand",
+      "location": "Otahuhu, Auckland, New Zealand",
       "dates": "March 2015 - Present",
       "description": "Manager of company accounts and daily activities. Took initiative to modernize company through moving company files to a cloud based system and modularized the daily activities of the director"
     }
@@ -88,7 +88,7 @@ var projects = {
     {
       title: "Classic Arcade Clone",
       dates: "June 2015 - Present",
-      description: "I made a game, will say more later",
+      description: "I made a game, will say more later. Probs gonna be amazing yo",
       images: "images/197x148.gif"
     }
   ]
@@ -118,14 +118,14 @@ var education = {
       "location": "Auckland, New Zealand",
       "degree": "Bachelor of Science",
       "majors": ["Compsci", "Stats"],
-      "dates": 2015
+      "dates": "March 2012 - February 2015"
     }
   ],
   "onlineCourses": [
     {
       "title": "Front-end Web Developer Nanodegree",
       "school": "Udacity",
-      "dates": 2015,
+      "dates": "2015-Present",
       "url": "https://www.udacity.com/"
     }
   ]
