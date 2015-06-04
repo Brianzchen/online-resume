@@ -213,3 +213,8 @@ span {
     display: block;
   }
 }
+
+/*self added stuff*/
+#roleText {
+  color: #ffffff;
+}
