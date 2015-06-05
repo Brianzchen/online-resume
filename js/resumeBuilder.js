@@ -49,18 +49,18 @@ bio.display = function() {
 var work = {
   "jobs": [
     {
-      "employer": "Skycity Entertainment Group",
-      "title": "Croupier",
-      "location": "Auckland, New Zealand",
-      "dates": "November 2013 - March 2015",
-      "description": "Blackjack dealer, winner of 2014 dealers championship"
-    },
-    {
       "employer": "Fortune Enterprises Ltd",
       "title": "Account Manager",
       "location": "Otahuhu, Auckland, New Zealand",
       "dates": "March 2015 - Present",
       "description": "Manager of company accounts and daily activities. Took initiative to modernize company through moving company files to a cloud based system and modularized the daily activities of the director"
+    },
+    {
+      "employer": "Skycity Entertainment Group",
+      "title": "Croupier",
+      "location": "Auckland, New Zealand",
+      "dates": "November 2013 - March 2015",
+      "description": "Blackjack dealer, winner of 2014 dealers championship"
     }
   ]
 };
