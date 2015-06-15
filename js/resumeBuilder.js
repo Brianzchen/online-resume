@@ -5,7 +5,6 @@ var bio = {
     "mobile": "0211742289",
     "email": "bchen.chen93@gmail.com",
     "github": "https://github.com/Brianzchen/",
-    "twitter": "@brianzchen",
     "location": "Bucklands Beach, Auckland, New Zealand"
   },
   "welcomeMessage": "Welcome to my online resume",
@@ -25,10 +24,8 @@ bio.display = function() {
   var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
   var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
   var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
-  var formattedTwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
   var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
   $("#topContacts").prepend(formattedLocation);
-  $("#topContacts").prepend(formattedTwitter);
   $("#topContacts").prepend(formattedGithub);
   $("#topContacts").prepend(formattedEmail);
   $("#topContacts").prepend(formattedMobile);
@@ -42,25 +39,25 @@ bio.display = function() {
   $("#header").append(HTMLskillsStart);
   for (skill in bio.skills) {
     var formattedSkills = HTMLskills.replace("%data%", bio.skills[skill]);
-    $("#header").append(formattedSkills);
+    $("#skills").append(formattedSkills);
   }
 }
 
 var work = {
   "jobs": [
     {
-      "employer": "Skycity Entertainment Group",
-      "title": "Croupier",
-      "location": "Auckland, New Zealand",
-      "dates": "November 2013 - March 2015",
-      "description": "Blackjack dealer, winner of 2014 dealers championship"
-    },
-    {
       "employer": "Fortune Enterprises Ltd",
       "title": "Account Manager",
       "location": "Otahuhu, Auckland, New Zealand",
       "dates": "March 2015 - Present",
       "description": "Manager of company accounts and daily activities. Took initiative to modernize company through moving company files to a cloud based system and modularized the daily activities of the director"
+    },
+    {
+      "employer": "Skycity Entertainment Group",
+      "title": "Croupier",
+      "location": "Auckland, New Zealand",
+      "dates": "November 2013 - March 2015",
+      "description": "Blackjack dealer, winner of 2014 dealers championship"
     }
   ]
 };
