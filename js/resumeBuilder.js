@@ -84,9 +84,19 @@ var projects = {
   projects: [
     {
       title: "Classic Arcade Clone",
-      dates: "June 2015 - Present",
-      description: "I made a game, will say more later. Probs gonna be amazing yo",
-      images: "images/197x148.gif"
+      link: "http://brianzchen.github.io/frogger-game/",
+      dates: "June 2015",
+      description: "A modern take of a the classic arcade game Frogger. Making use of object oriented programming I implemented the player character, enemy bugs and multiple game mechanics using the Udacity provided game engine. Modifications of the game engine were also made to acomodate new mechanics as well as a locally stored score system.",
+      image1: "images/frogger-small.png",
+      image2: "images/frogger2-small.png"
+    },
+    {
+      title: "Website Optimization",
+      link: "http://brianzchen.github.io/web-opt-project/",
+      dates: "July 2015",
+      description: "Using a Udacity provided website created by web developer Cameron Pittman, I was tasked optimizing the website to a score of higher than 90 on Google's PageSpeed Insights which I managed to acheive 95 and 97 respectively for mobile and desktop with the use of internal stylesheets, image optimization and asynchronous loading of JavaScript. I was also tasked with optimizing the webpage 'Cam's Pizzaria' to run at 60 frames per second which was acomplished through measuring the performance with Google Chome's web developer tools and rewriting code to fix issues related to forced synchronous layout.",
+      image1: "images/webopt.png",
+      image2: "images/webopt2.png"
     }
   ]
 }
@@ -97,14 +107,16 @@ projects.display = function() {
     $("#projects").append(HTMLprojectStart);
 
     var formattedTitle = HTMLprojectTitle.replace("%data%", projects.projects[project].title);
+    formattedTitle = formattedTitle.replace("#", projects.projects[project].link);
     var formattedDates = HTMLprojectDates.replace("%data%", projects.projects[project].dates);
     var formattedDescription = HTMLprojectDescription.replace("%data%", projects.projects[project].description);
-    var formattedImage = HTMLprojectImage.replace("%data%", projects.projects[project].images);
+    var formattedImage1 = HTMLprojectImage1.replace("%data%", projects.projects[project].image1);
+    var formattedImage2 = HTMLprojectImage2.replace("%data%", projects.projects[project].image2);
     $(".project-entry:last").append(formattedTitle);
     $(".project-entry:last").append(formattedDates);
     $(".project-entry:last").append(formattedDescription);
-    $(".project-entry:last").append(formattedImage);
-    $(".project-entry:last").append(formattedImage);
+    $(".project-entry:last").append(formattedImage1);
+    $(".project-entry:last").append(formattedImage2);
   }
 }
 
