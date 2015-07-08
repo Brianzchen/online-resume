@@ -50,7 +50,7 @@ var work = {
       "title": "Account Manager",
       "location": "Otahuhu, Auckland, New Zealand",
       "dates": "March 2015 - Present",
-      "description": "Manager of company accounts and daily activities. Took initiative to modernize company through moving company files to a cloud based system and modularized the daily activities of the director"
+      "description": "Manager of company accounts and daily activities. Took initiative to modernize company through moving company files to a cloud based system and modularized the daily activities of the director."
     },
     {
       "employer": "Skycity Entertainment Group",
@@ -86,7 +86,7 @@ var projects = {
       title: "Classic Arcade Clone",
       link: "http://brianzchen.github.io/frogger-game/",
       dates: "June 2015",
-      description: "A modern take of a the classic arcade game Frogger. Making use of object oriented programming I implemented the player character, enemy bugs and multiple game mechanics using the Udacity provided game engine. Modifications of the game engine were also made to acomodate new mechanics as well as a locally stored score system.",
+      description: "A modern take of a the classic arcade game Frogger. Making use of object oriented programming I implemented the player character, enemy bugs and multiple game mechanics using the Udacity provided game engine. Modifications of the game engine were also made to accommodate new mechanics as well as a locally stored score system.",
       image1: "images/frogger-small.png",
       image2: "images/frogger2-small.png"
     },
@@ -94,9 +94,17 @@ var projects = {
       title: "Website Optimization",
       link: "http://brianzchen.github.io/web-opt-project/",
       dates: "July 2015",
-      description: "Using a Udacity provided website created by web developer Cameron Pittman, I was tasked optimizing the website to a score of higher than 90 on Google's PageSpeed Insights which I managed to acheive 95 and 97 respectively for mobile and desktop with the use of internal stylesheets, image optimization and asynchronous loading of JavaScript. I was also tasked with optimizing the webpage 'Cam's Pizzaria' to run at 60 frames per second which was acomplished through measuring the performance with Google Chome's web developer tools and rewriting code to fix issues related to forced synchronous layout.",
+      description: "Using a Udacity provided website created by web developer Cameron Pittman, I was tasked optimizing the website to a score of higher than 90 on Google's PageSpeed Insights which I managed to achieve 95 and 97 respectively for mobile and desktop with the use of internal style-sheets, image optimization and asynchronous loading of JavaScript. I was also tasked with optimizing the webpage 'Cam's Pizzeria' to run at 60 frames per second which was accomplished through measuring the performance with Google Chome's web developer tools and rewriting code to fix issues related to forced synchronous layout.",
       image1: "images/webopt.png",
       image2: "images/webopt2.png"
+    },
+    {
+      title: "Neighbourhood Map",
+      link: "#",
+      dates: "July 2015 - Present",
+      description: "Work in progress",
+      image1: "images/197x148.gif",
+      image2: "images/197x148.gif"
     }
   ]
 }
@@ -134,7 +142,7 @@ var education = {
     {
       "title": "Front-end Web Developer Nanodegree",
       "school": "Udacity",
-      "dates": "2015-Present",
+      "dates": "June 2015-Present",
       "url": "https://www.udacity.com/"
     }
   ]
