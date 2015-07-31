@@ -11,7 +11,7 @@ var bio = {
   "skills": [
     "HTML5", "CSS3", "JavaScript", "Knockout.js", "Jasmine 2.0"
     ],
-  "biopic": "images/fry.jpg"
+  "biopic": "images/profile.jpg"
 };
 
 /*appending all the header info*/
