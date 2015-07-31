@@ -9,7 +9,7 @@ var bio = {
   },
   "welcomeMessage": "Welcome to my online resume",
   "skills": [
-    "HTML5", "CSS3", "JavaScript"
+    "HTML5", "CSS3", "JavaScript", "Knockout.js", "Jasmine 2.0"
     ],
   "biopic": "images/fry.jpg"
 };
