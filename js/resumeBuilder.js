@@ -9,9 +9,9 @@ var bio = {
   },
   "welcomeMessage": "Welcome to my online resume",
   "skills": [
-    "HTML5", "CSS3", "JavaScript"
+    "HTML5", "CSS3", "JavaScript", "Knockout.js", "Jasmine 2.0"
     ],
-  "biopic": "images/fry.jpg"
+  "biopic": "images/profile.jpg"
 };
 
 /*appending all the header info*/
@@ -100,8 +100,16 @@ var projects = {
     },
     {
       title: "Neighbourhood Map",
-      link: "#",
-      dates: "July 2015 - Present",
+      link: "http://brianzchen.github.io/east-eats/",
+      dates: "July 2015",
+      description: "Created a neighbourhood map of east Auckland, NZ showing local eateries that I consider very tasty. The project was created using the knockout.js framework along with Google's Maps and Yelp's business API's.",
+      image1: "images/neighbourhood-map-small.png",
+      image2: "images/neighbourhood-map2-small.png"
+    },
+    {
+      title: "Feed Reader",
+      link: "https://github.com/Brianzchen/feedreader",
+      dates: "July 2015",
       description: "Work in progress",
       image1: "images/197x148.gif",
       image2: "images/197x148.gif"
