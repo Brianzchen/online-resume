@@ -109,10 +109,10 @@ var projects = {
     {
       title: "Feed Reader",
       link: "https://github.com/Brianzchen/feedreader",
-      dates: "July 2015",
-      description: "Work in progress",
-      image1: "images/197x148.gif",
-      image2: "images/197x148.gif"
+      dates: "August 2015",
+      description: "A feed reader was created by Udacity and I was tasked with the creating tests using Jasmine 2.0 framework to demonstrate my ability of TDD (test driven development).",
+      image1: "images/feedreader-small.png",
+      image2: ""
     }
   ]
 }
@@ -150,7 +150,7 @@ var education = {
     {
       "title": "Front-end Web Developer Nanodegree",
       "school": "Udacity",
-      "dates": "June 2015 - Present",
+      "dates": "June 2015 - August 2015",
       "url": "https://www.udacity.com/"
     }
   ]
