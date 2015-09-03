@@ -47,10 +47,10 @@ var work = {
   "jobs": [
     {
       "employer": "Fortune Enterprises Ltd",
-      "title": "Account Manager",
+      "title": "Software Developer/Account Manager",
       "location": "Otahuhu, Auckland, New Zealand",
       "dates": "March 2015 - Present",
-      "description": "Manager of company accounts and daily activities. Took initiative to modernize company through moving company files to a cloud based system and modularized the daily activities of the director."
+      "description": "Manager of company accounts and daily activities. Took initiative to modernize company through moving company files to a cloud based system and modularized the daily activities of the director. I also created applications to satisfy efficiency and reduce human errors in the company."
     },
     {
       "employer": "Skycity Entertainment Group",
@@ -113,6 +113,22 @@ var projects = {
       description: "A feed reader was created by Udacity and I was tasked with the creating tests using Jasmine 2.0 framework to demonstrate my ability of TDD (test driven development).",
       image1: "images/feedreader-small.png",
       image2: ""
+    },
+    {
+      title: "Delivery Checklist",
+      link: "http://brianzchen.github.io/delivery-checklist/",
+      dates: "August 2015",
+      description: "This application was created to solve an issue presented at Fortune Enterprises. Deliveries across Auckland often had human errors due to either the master order form being incorrect compared to the delivery form or other forms of mistakes due items not being clearly recorded. This application removes all human errors from the point of the director recording the order to the delivery van being loaded by automating much of the process where most mistakes occurred.",
+      image1: "images/delivery-checklist.png",
+      image2: "images/delivery-checklist2.png"
+    },
+    {
+      title: "Packing Slip Generator",
+      link: "https://github.com/fortunenz/packing-slip",
+      dates: "August 2015",
+      description: "This application was created for Fortune Enterprises to help establish a more efficient and professional image for the company. Packing slips instead of being hand written are now created using an online order form which will automate most of the forms creation with all item details set in place, this reduces time spent remembering item packaging or units and allows the sales team to focus on what the customer needs and getting it delivered quickly.",
+      image1: "images/packing-slip1-small.png",
+      image2: "images/packing-slip2.png"
     }
   ]
 }
